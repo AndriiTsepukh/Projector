@@ -1,13 +1,12 @@
-Учебный проект "Сайт Ярослава Мудрого"
+Учебный проект
 =========
 
 Учебная работа команды №1 в рамках курса Projector Frontend Advanced.
 
 #Задача
 
-Необходимо сверстать следующий сайт:
+Необходимо сверстать сайт
 
-https://www.dropbox.com/sh/0bn2btrharxxwc5/AADBEIsdp1aP2aTjs4646DB2a?dl=0
 
 #How to use
 
@@ -25,7 +24,7 @@ To run separate task type in command line `gulp [task_name]`.
 Almost all tasks also have watch mode - `gulp [task_name]:watch`, but you don't need to use it directly.
 
 ### Main tasks
-Task name          | Description                                                      
+Task name          | Description
 :------------------|:----------------------------------
 `default`          | will start all tasks required by project in dev mode: initial build, watch files, run server with livereload
 `build:dev`        | build dev version of project (without code optimizations)
@@ -33,7 +32,7 @@ Task name          | Description
 `deploy`           | build production-ready project and push only `./build` folder to **gh-pages** branch on github
 
 ### Other tasks
-Task name          | Description                                                      
+Task name          | Description
 :------------------|:----------------------------------
 `sass` 	         | compile .sass/.scss to .css. We also use [postcss](https://github.com/postcss/postcss) for [autoprefixer](https://github.com/postcss/autoprefixer), so feel free to include other awesome postcss [plugins](https://github.com/postcss/postcss#plugins) when needed
 `webpack`          | compile .js sources into bundle file
