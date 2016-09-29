@@ -1,0 +1,14 @@
+.mainmenu {
+    background-color: #ebeef6;
+    &__text{
+        width: 100%;
+        text-align: center;
+        font-family: #{$font-serif};
+        font-size: 28px;
+        font-weight: bold;
+        color: #474d58;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+}
